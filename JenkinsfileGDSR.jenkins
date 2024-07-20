@@ -2,7 +2,7 @@ pipeline{
     agent any
     tools
     {
-        maven "Maven"
+        maven "install"
     }
     stages{
         stage("Test"){
